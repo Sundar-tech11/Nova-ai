@@ -1513,12 +1513,8 @@ if (process.env.NODE_ENV !== 'production') {
   const distPath = path.join(__dirname, 'dist');
   app.use(express.static(distPath));
   app.get('*', (req, res) => {
-    res.sendFile(path.join(distPath, 'index.html'));
-  });
-  console.log('Serving production static builds from dist/.');
-}
-
-const PORT = 3000;
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`[NextStep AI] listening on port ${PORT} with environment ${process.env.NODE_ENV || 'development'}`);
+  res.sendFile(path.join(distPath, 'index.html'));
 });
+
+}
+export default app;
