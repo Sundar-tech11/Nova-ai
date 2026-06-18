@@ -1,0 +1,98 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Represents detailed candidate profile, login credentials, and social links.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique identifier of the user" },
+        "name": { "type": "string", "description": "Candidate full name" },
+        "email": { "type": "string", "description": "Candidate verified email address" },
+        "passwordHash": { "type": "string", "description": "PBKDF2 password authentication salt:hash pair" },
+        "avatar": { "type": "string", "description": "URL link to candidate display photo" },
+        "bio": { "type": "string", "description": "Professional elevator pitch biography" },
+        "github": { "type": "string", "description": "Link to candidate GitHub profile" },
+        "linkedin": { "type": "string", "description": "Link to candidate LinkedIn profile" },
+        "portfolio": { "type": "string", "description": "Link to custom external projects portfolio" },
+        "skills": { "type": "array", "description": "Collection of candidate tech skills" },
+        "createdAt": { "type": "string", "description": "ISO timestamp representing account registration" }
+      },
+      "required": ["id", "name", "email", "passwordHash"]
+    },
+    "Session": {
+      "title": "User Session",
+      "description": "Represents active session state for stateless cookie-less API tracking.",
+      "type": "object",
+      "properties": {
+        "token": { "type": "string", "description": "Secure random base session token" },
+        "userId": { "type": "string", "description": "UID associated with the user" },
+        "expiresAt": { "type": "number", "description": "Epoch milliseconds representing session expiry" }
+      },
+      "required": ["token", "userId", "expiresAt"]
+    },
+    "ResumeAnalysis": {
+      "title": "Resume Assessment",
+      "description": "Represents a graded resume assessment output including strengths and deficiencies.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique evaluation ID" },
+        "userId": { "type": "string", "description": "Document owner ID" },
+        "resumeName": { "type": "string", "description": "Associated filename or label" },
+        "score": { "type": "integer", "description": "Core software practitioner rating from 0-100" },
+        "atsScore": { "type": "integer", "description": "ATS scanning friendliness from 0-100" },
+        "resultData": { "type": "object", "description": "Highly structured AI critique breakdown payload" },
+        "createdAt": { "type": "string", "description": "ISO timestamp when the audit was performed" }
+      },
+      "required": ["id", "userId", "resumeName", "score", "atsScore"]
+    },
+    "Roadmap": {
+      "title": "Career Roadmap",
+      "description": "Represents interactive, staged career journey created dynamically on user parameters.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Roadmap primary ID" },
+        "userId": { "type": "string", "description": "Roadmap owner reference" },
+        "careerName": { "type": "string", "description": "Target track name (e.g. AIML Engineer)" },
+        "roadmapData": { "type": "object", "description": "Dynamic learning stages and project blueprints payload" },
+        "createdAt": { "type": "string", "description": "ISO timestamp of generation" }
+      },
+      "required": ["id", "userId", "careerName"]
+    },
+    "InterviewHistory": {
+      "title": "Interview History Log",
+      "description": "Represents historical mock evaluations graded by AI with customized responses.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Evaluation log primary ID" },
+        "userId": { "type": "string", "description": "Session owner reference" },
+        "interviewType": { "type": "string", "description": "The exact title prompt or question targeted" },
+        "score": { "type": "integer", "description": "Percentage correctness grade score from 0 to 100" },
+        "resultData": { "type": "object", "description": "Structured critique feedback payload" },
+        "createdAt": { "type": "string", "description": "ISO timestamp of execution" }
+      },
+      "required": ["id", "userId", "interviewType", "score"]
+    }
+  },
+  "firestore": {
+    "users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "Stores candidate profile configuration settings, credentials, and skills."
+    },
+    "sessions/{tokenId}": {
+      "schema": { "$ref": "#/entities/Session" },
+      "description": "Active web session tracking with short lifespan timeouts."
+    },
+    "resumeAnalyses/{analysisId}": {
+      "schema": { "$ref": "#/entities/ResumeAnalysis" },
+      "description": "Secure parsed assessments linked to specific authenticated candidate UIDs."
+    },
+    "roadmaps/{roadmapId}": {
+      "schema": { "$ref": "#/entities/Roadmap" },
+      "description": "Personalized career roadmaps linked directly to the creator's profile."
+    },
+    "interviewHistories/{historyId}": {
+      "schema": { "$ref": "#/entities/InterviewHistory" },
+      "description": "Staged mock interview grading logs associated with authenticated users."
+    }
+  }
+}

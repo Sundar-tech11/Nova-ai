@@ -1,0 +1,40 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. The Master Gate: Block arbitrary collection creation or reads
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper: size/datatype check
+    function isValidId(id) {
+      return id is string && id.size() > 0;
+    }
+
+    // 2. Users Collection
+    match /users/{userId} {
+      allow get, list, create, update: if isValidId(userId);
+      allow delete: if false; // Prevent user deletion from client or raw access
+    }
+
+    // 3. Sessions Collection (Required for cookie-less active session state)
+    match /sessions/{tokenId} {
+      allow get, create, update, delete: if isValidId(tokenId);
+    }
+
+    // 4. Resume Analyses Collection
+    match /resumeAnalyses/{analysisId} {
+      allow get, list, create, update, delete: if isValidId(analysisId);
+    }
+
+    // 5. Roadmaps Collection
+    match /roadmaps/{roadmapId} {
+      allow get, list, create, update, delete: if isValidId(roadmapId);
+    }
+
+    // 6. Interview Histories Collection
+    match /interviewHistories/{historyId} {
+      allow get, list, create, update, delete: if isValidId(historyId);
+    }
+  }
+}
