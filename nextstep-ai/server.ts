@@ -3,7 +3,7 @@ import { GoogleGenAI, Type } from '@google/genai';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import * as db from './server-db';
+import * as db from './server-db.ts';
 
 dotenv.config();
 
