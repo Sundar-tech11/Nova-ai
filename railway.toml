@@ -1,0 +1,31 @@
+# =========================================================================
+#                    NextStep AI - Railway Deployment Configuration
+# =========================================================================
+# This configuration file instructs Railway how to build and deploy 
+# NextStep AI using Nixpacks (Railway's default zero-configuration builder).
+#
+# For more info, see: https://docs.railway.app/deploy/reference/railway-toml
+# =========================================================================
+
+[build]
+# Use Railway's robust, fast Nixpacks builder
+builder = "NIXPACKS"
+
+# Run the standard build script from package.json
+# This bundles the React client-side assets via Vite and compiles server.ts using esbuild
+buildCommand = "npm run build"
+
+[deploy]
+# Run the compiled production bundle
+startCommand = "npm run start"
+
+# Perform an HTTP health check on the root path in production.
+# This ensures a clean green roll-out before traffic routes to the new container.
+healthcheckPath = "/"
+healthcheckTimeout = 120
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 5
+
+[build.nixpacks]
+# Set the Node.js runtime environment to v20 (LTS) for maximum stability
+nodeVersion = "20"
