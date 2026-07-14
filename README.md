@@ -18,7 +18,11 @@
 
 # 🌐 Live Demo
 
+<<<<<<< HEAD
 🔗 https://nova-ai-production-016f.up.railway.app/
+=======
+🔗 **Website:** https://nova-ai-production-016f.up.railway.app/
+>>>>>>> d969ac4 (Update README with project documentation)
 
 ---
 
@@ -220,7 +224,11 @@ Submit a Pull Request
 
 # 👨‍💻 Developer
 
+<<<<<<< HEAD
 **Sundara Vannan**
+=======
+**Sundaravannan**
+>>>>>>> d969ac4 (Update README with project documentation)
 
 AI & ML Student
 
@@ -246,4 +254,8 @@ It motivates me to build more AI projects.
 
 MIT License
 
+<<<<<<< HEAD
 © 2026 Sundara Vannan
+=======
+© 2026 Sundaravannan
+>>>>>>> d969ac4 (Update README with project documentation)
