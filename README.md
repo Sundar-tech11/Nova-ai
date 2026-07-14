@@ -18,7 +18,7 @@
 
 # 🌐 Live Demo
 
-🔗 **Website:** https://YOUR-RAILWAY-URL.up.railway.app
+🔗 https://nova-ai-production-016f.up.railway.app/
 
 ---
 
