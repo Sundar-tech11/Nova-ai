@@ -219,17 +219,66 @@ https://nova-ai-production-016f.up.railway.app/
 
 # 📸 Screenshots
 
-> *(Add screenshots here later)*
+# 📸 Dashboard Preview
 
-- Landing Page
-- Dashboard
-- Resume Analyzer
-- Nova AI Chat
-- Interview Preparation
-- Skills Tracker
-- Career Roadmap
-- Portfolio Builder
+## 🏠 Landing Page
+
+![Landing Page](assets/screenshots/01-landing-page.png)
+
 ---
+
+## 🔐 Authentication
+
+![Authentication](assets/screenshots/02-login-page.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](assets/screenshots/03-dashboard-page.png)
+
+---
+
+## 🤖 AI Career Coach
+
+![AI Career Coach](assets/screenshots/04-ai-career-coach-page.png)
+
+---
+
+## 📄 Resume Analyzer
+
+![Resume Analyzer](assets/screenshots/05-resume-analyzer-page.png)
+
+---
+
+## 🛣️ Career Roadmap Generator
+
+![Roadmap Generator](assets/screenshots/06-roadmap-generator-page.png)
+
+---
+
+## 🎤 AI Mock Interview
+
+![AI Mock Interview](assets/screenshots/07-ai-mock-interview-page.png)
+
+---
+
+## 📈 Skills Tracker
+
+![Skills Tracker](assets/screenshots/08-skill-tracker-page.png)
+
+---
+
+## 💼 Portfolio Builder
+
+![Portfolio Builder](assets/screenshots/09-portfolio-builder-page.png)
+
+---
+
+## 📊 Analytics Console
+
+![Analytics Console](assets/screenshots/10-analytics-console-page.png)
+
 
 # 🎯 Future Enhancements
 
