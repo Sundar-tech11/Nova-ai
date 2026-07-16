@@ -10,13 +10,25 @@ Build • Learn • Get Hired
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white">
-  <img src="https://img.shields.io/badge/Google-Gemini_2.5-4285F4?style=for-the-badge&logo=google&logoColor=white">
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">
-  <img src="https://img.shields.io/badge/Railway-7B3FE4?style=for-the-badge&logo=railway&logoColor=white">
-  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge">
+An AI-powered career platform that helps students analyze resumes, prepare for interviews, generate personalized learning roadmaps, build professional portfolios, and accelerate their careers using Google Gemini AI.
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white">
+
+<img src="https://img.shields.io/badge/Google-Gemini_2.5-4285F4?style=for-the-badge&logo=google&logoColor=white">
+
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">
+
+<img src="https://img.shields.io/badge/Railway-7B3FE4?style=for-the-badge&logo=railway&logoColor=white">
+
+<img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge">
+
 </p>
 
 <p align="center">
@@ -30,30 +42,40 @@ Build • Learn • Get Hired
 
 # 📖 About NOVA AI
 
-**NOVA AI** is a modern AI-powered career operating system designed to help students and professionals accelerate their careers using Google's **Gemini 2.5 Flash AI**.
+NOVA AI is an AI-powered Career Operating System built to help students and aspiring professionals become industry-ready through intelligent career guidance.
 
-Instead of relying on multiple career websites, NOVA AI brings everything into one intelligent platform.
+Instead of switching between multiple platforms for resume analysis, interview preparation, portfolio building, and career planning, NOVA AI combines everything into one modern AI workspace powered by **Google Gemini 2.5 Flash**.
 
-It assists users with:
+Whether you're preparing for placements, internships, or your first software engineering job, NOVA AI serves as your personal AI career mentor.
 
-- 🤖 AI Career Guidance
-- 📄 ATS Resume Analysis
-- 🎯 AI Interview Preparation
-- 🛣 Personalized Career Roadmaps
-- 💼 Portfolio Improvement
-- 📊 Skill Tracking
-- 🔐 Secure Authentication
+---
 
-Whether you're preparing for placements, internships, or your first software engineering job, NOVA AI acts as your personal AI career mentor.
+# 📚 Table of Contents
+
+- 📖 About
+- ✨ Features
+- 📸 Dashboard Preview
+- 🛠 Tech Stack
+- 📂 Project Structure
+- 🚀 Installation
+- 🌐 Live Demo
+- 🎯 Future Enhancements
+- ⚙️ Environment Variables
+- 🚀 Deployment
+- 📈 Performance
+- 🔒 Security
+- 🤝 Contributing
+- 📚 Learning Objectives
+- 👨‍💻 Developer
+- 📄 License
 
 ---
 
 # ✨ Features
 
-## 🤖 Nova AI Career Coach
+## 🤖 AI Career Coach
 
-- AI-powered career assistant
-- Personalized career guidance
+- Personalized AI career guidance
 - Technology recommendations
 - Learning suggestions
 - Powered by Google Gemini 2.5 Flash
@@ -64,30 +86,23 @@ Whether you're preparing for placements, internships, or your first software eng
 
 - ATS Resume Score
 - Resume Strength Analysis
-- Weakness Detection
-- Improvement Suggestions
-- Resume Optimization Tips
+- Resume Optimization Suggestions
 
 ---
 
-## 🎯 Interview Preparation
+## 🎤 AI Mock Interview
 
-- Technical Questions
-- HR Questions
-- AI Feedback
-- Performance Score
-- Model Answers
-- Improvement Suggestions
+- Technical & HR Questions
+- Instant AI Feedback
+- Performance Evaluation
 
 ---
 
-## 🛣 Career Roadmap Generator
+## 🛣 Personalized Career Roadmap
 
-- Personalized Roadmaps
-- Technology Recommendations
-- Learning Timeline
-- Skill Progression
-- Career Planning
+- AI-generated learning roadmap
+- Technology recommendations
+- Career planning
 
 ---
 
@@ -95,129 +110,25 @@ Whether you're preparing for placements, internships, or your first software eng
 
 - Portfolio Review
 - Project Suggestions
-- Improvement Tips
 - Professional Recommendations
 
 ---
 
 ## 📊 Skills Tracker
 
-- Track Technical Skills
-- Progress Visualization
+- Skill Progress Tracking
+- Analytics Dashboard
 - Learning Recommendations
-- Growth Dashboard
 
 ---
 
-## 🔐 Authentication
+## 🔐 Secure Authentication
 
 - Firebase Authentication
-- Secure Login
-- Secure Signup
-- Protected Sessions
+- Secure Login & Signup
+- Protected User Sessions
 
 ---
-
-# 🛠 Tech Stack
-
-| Category | Technology |
-|-----------|------------|
-| Frontend | React 19 |
-| Language | TypeScript |
-| Build Tool | Vite |
-| Styling | Tailwind CSS |
-| Icons | Lucide React |
-| Backend | Express.js |
-| Runtime | Node.js |
-| AI | Google Gemini 2.5 Flash |
-| Database | Firebase |
-| Authentication | Firebase Auth |
-| Deployment | Railway |
-
----
-
-# 📂 Project Structure
-
-```text
-Nova-ai/
-│
-├── src/
-│   ├── components/
-│   ├── lib/
-│   ├── App.tsx
-│   └── main.tsx
-│
-├── api/
-│
-├── server.ts
-├── server-db.ts
-├── package.json
-├── vite.config.ts
-├── railway.toml
-└── README.md
-```
-
----
-
-# 🚀 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/Sundar-tech11/Nova-ai.git
-```
-
-Navigate to the project
-
-```bash
-cd Nova-ai
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Create a `.env` file
-
-```env
-NODE_ENV=development
-
-PORT=3000
-
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-```
-
-Run locally
-
-```bash
-npm run dev
-```
-
-Build Production
-
-```bash
-npm run build
-```
-
-Start Production Server
-
-```bash
-npm start
-```
-
----
-
-# 🌐 Live Demo
-
-🔗 **Website**
-
-https://nova-ai-production-016f.up.railway.app/
-
----
-
-# 📸 Screenshots
 
 # 📸 Dashboard Preview
 
@@ -227,9 +138,9 @@ https://nova-ai-production-016f.up.railway.app/
 
 ---
 
-## 🔐 Authentication
+## 🔐 Login
 
-![Authentication](assets/screenshots/02-login-page.png)
+![Login](assets/screenshots/02-login-page.png)
 
 ---
 
@@ -251,9 +162,9 @@ https://nova-ai-production-016f.up.railway.app/
 
 ---
 
-## 🛣️ Career Roadmap Generator
+## 🛣 Career Roadmap Generator
 
-![Roadmap Generator](assets/screenshots/06-roadmap-generator-page.png)
+![Career Roadmap](assets/screenshots/06-roadmap-generator-page.png)
 
 ---
 
@@ -275,34 +186,128 @@ https://nova-ai-production-016f.up.railway.app/
 
 ---
 
-## 📊 Analytics Console
+## 📊 Analytics Dashboard
 
-![Analytics Console](assets/screenshots/10-analytics-console-page.png)
+![Analytics Dashboard](assets/screenshots/10-analytics-console-page.png)
 
+---
+
+# 🛠 Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Frontend | React 19 |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Build Tool | Vite |
+| Icons | Lucide React |
+| Backend | Express.js |
+| Runtime | Node.js |
+| AI | Google Gemini 2.5 Flash |
+| Database | Firebase Firestore |
+| Authentication | Firebase Authentication |
+| Deployment | Railway |
+
+---
+# 📂 Project Structure
+
+```text
+Nova-ai/
+│
+├── assets/
+│   ├── banner.png
+│   └── screenshots/
+│
+├── src/
+│   ├── components/
+│   ├── lib/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── api/
+├── server.ts
+├── package.json
+├── vite.config.ts
+├── railway.toml
+└── README.md
+```
+
+---
+
+# 🚀 Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Sundar-tech11/Nova-ai.git
+```
+
+### 2️⃣ Navigate to the Project
+
+```bash
+cd Nova-ai
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the Development Server
+
+```bash
+npm run dev
+```
+
+The application will start on:
+
+```text
+http://localhost:3000
+```
+
+---
+
+# 🌐 Live Demo
+
+🚀 **Experience NOVA AI**
+
+### 🔗 Live Website
+
+https://nova-ai-production-016f.up.railway.app/
+
+### 📂 GitHub Repository
+
+https://github.com/Sundar-tech11/Nova-ai
+
+---
 
 # 🎯 Future Enhancements
 
-NOVA AI is continuously evolving. Planned features include:
+NOVA AI is continuously evolving.
+
+Upcoming features include:
 
 - 🎤 AI Voice Mock Interviews
 - 📹 Video Interview Practice
-- 📄 PDF Resume Generator
+- 📄 AI Resume PDF Generator
 - 📊 Advanced Analytics Dashboard
-- 🏆 Gamified Learning System
-- 🔔 Smart Notifications
+- 🏆 Gamified Learning Experience
 - 📅 AI Study Planner
-- 🤝 Community Discussion Forum
-- 📈 Placement Preparation Tracker
+- 🔔 Smart Notifications
+- 🤝 Community Discussions
+- 📈 Placement Tracker
 - 🌙 Dark / Light Theme Toggle
 - 📱 Progressive Web App (PWA)
-- 📥 Resume Import from LinkedIn
-- 🤖 Multi-AI Support (Gemini, OpenAI, Claude)
+- 📥 LinkedIn Resume Import
+- 🤖 Multi-AI Support (Gemini, OpenAI & Claude)
 
 ---
 
 # ⚙️ Environment Variables
 
-Create a `.env` file in the root directory.
+Create a `.env` file inside the project root.
 
 ```env
 NODE_ENV=development
@@ -318,7 +323,7 @@ GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 
 # 🚀 Deployment
 
-The project is deployed on **Railway**.
+The project is deployed using **Railway**.
 
 ### Build Command
 
@@ -336,29 +341,30 @@ npm start
 
 # 📈 Performance
 
-✅ Optimized React Components
+✔ Optimized React Components
 
-✅ Lazy Loading
+✔ TypeScript
 
-✅ TypeScript
+✔ Responsive UI
 
-✅ Responsive UI
+✔ Lazy Loading
 
-✅ Firebase Authentication
+✔ Firebase Authentication
 
-✅ Secure Backend APIs
+✔ Secure Backend APIs
 
-✅ Railway Production Deployment
+✔ Railway Production Deployment
+
+✔ Google Gemini 2.5 Flash Integration
 
 ---
 
 # 🔒 Security
 
-- Secure Firebase Authentication
+- Firebase Authentication
 - Protected Backend APIs
 - Environment Variables
-- Password Hashing
-- Session Management
+- Secure Session Management
 - Protected Routes
 
 ---
@@ -367,27 +373,27 @@ npm start
 
 Contributions are always welcome.
 
-1. Fork the repository
+### Fork the repository
 
-2. Create a new branch
+Create a feature branch
 
 ```bash
 git checkout -b feature/NewFeature
 ```
 
-3. Commit changes
+Commit your changes
 
 ```bash
-git commit -m "Added New Feature"
+git commit -m "Add amazing feature"
 ```
 
-4. Push
+Push to GitHub
 
 ```bash
 git push origin feature/NewFeature
 ```
 
-5. Open a Pull Request
+Open a Pull Request 🚀
 
 ---
 
@@ -397,15 +403,15 @@ This project demonstrates:
 
 - Full Stack Development
 - REST APIs
-- Authentication
-- AI Integration
+- Firebase Authentication
+- Google Gemini AI Integration
 - Cloud Deployment
 - Responsive Design
 - TypeScript
-- Modern React
+- React 19
 - Express.js
-- Firebase
-- Railway Deployment
+- Railway
+- Modern UI/UX
 
 ---
 
@@ -423,7 +429,7 @@ Passionate about:
 - Cloud Computing
 - Software Engineering
 
-### Connect with me
+### 🌐 Connect with Me
 
 🐙 GitHub
 
@@ -431,21 +437,11 @@ https://github.com/Sundar-tech11
 
 💼 LinkedIn
 
-https://www.linkedin.com/in/YOUR-LINKEDIN
+www.linkedin.com/in/sundaravannan-m-2288173a3
 
-🌐 Live Project
+🚀 Live Project
 
 https://nova-ai-production-016f.up.railway.app/
-
----
-
-# ⭐ Support
-
-If you found this project useful,
-
-please consider giving it a ⭐ on GitHub.
-
-It really motivates me to build more AI-powered open-source projects.
 
 ---
 
@@ -460,7 +456,17 @@ Special thanks to:
 - TypeScript
 - Vite
 - Express.js
-- Open Source Community
+- Open Source Community ❤️
+
+---
+
+# ⭐ Support
+
+If you found this project helpful,
+
+please consider giving this repository a ⭐.
+
+It motivates me to continue building AI-powered open-source projects.
 
 ---
 
@@ -474,10 +480,12 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-## ⭐ If you like this project, don't forget to Star the Repository ⭐
+# ⭐ Thank You for Visiting ⭐
+
+If you enjoyed NOVA AI, don't forget to ⭐ Star the repository.
 
 Made with ❤️ by **Sundaravannan**
 
-🚀 Keep Learning • Keep Building • Keep Growing
+### 🚀 Keep Learning • Keep Building • Keep Growing
 
 </div>
