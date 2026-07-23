@@ -437,11 +437,11 @@ https://github.com/Sundar-tech11
 
 💼 LinkedIn
 
-www.linkedin.com/in/sundaravannan-m-2288173a3
+https://www.linkedin.com/in/YOUR-LINKEDIN
 
 🚀 Live Project
 
-https://nova-ai-production-016f.up.railway.app/
+https://nova-ai-6cnk.onrender.com
 
 ---
 
