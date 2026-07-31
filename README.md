@@ -275,7 +275,7 @@ http://localhost:3000
 
 ### 🔗 Live Website
 
-https://nova-ai-production-016f.up.railway.app/
+https://nova-ai-6cnk.onrender.com/
 
 ### 📂 GitHub Repository
 
